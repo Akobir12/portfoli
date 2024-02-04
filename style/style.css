@@ -9,8 +9,7 @@
 }
 
 .big-box {
-    overflow: hidden;
-    max-width: 1440px;
+    width: 1440px;
     height: 5500px;
     margin: 0 auto;
     background-color: #020617;
@@ -24,6 +23,7 @@ body {
 /* Navbar start */
 
 .nav-bar {
+    box-shadow: 0px -30px 100px 0px #fff;
     position: fixed;
     /* margin-top: 12px; */
     background-color: #020617;

@@ -10,13 +10,15 @@
 
 .big-box {
     width: 1440px;
-    height: 5500px;
-    margin: 0 auto;
+    height: 9000px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #020617;
 }
 
 body {
-    /* background-color: #f5f5f5; */
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -379,6 +381,15 @@ body {
     border-color: #fff;
 }
 
+.ttiles {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    font: 700 50px/64px Lexend Deca;
+    color: #EAB308;
+}
+
 .ttile {
     margin-top: 30px;
     text-align: center;
@@ -386,6 +397,21 @@ body {
     letter-spacing: 5px;
     font: 700 50px/64px Lexend Deca;
     color: #EAB308;
+}
+
+.porfoliss {
+    border: 3px solid transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font: 700 35px/30px Lexend Deca;
+    width: 350px;
+    height: 100px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #10b0f0;
 }
 
 .porfolis {
@@ -584,6 +610,9 @@ textarea {
 
 @media only screen and (max-width: 425px) {
     /* about me responsiva start */
+    .big-box {
+        width: 425px;
+    }
     .box-section {
         width: 425px;
         height: 900px;
@@ -628,6 +657,126 @@ textarea {
     .span-nav-bar-2 a {
         font-size: 10px;
     }
+    /* section responsive start */
+    .section-2 {
+        width: 400px;
+        height: 900px;
+    }
+    .section-2-inside {
+        text-align: center;
+        width: 425px;
+        height: 1620px;
+        flex-direction: column;
+    }
+    .section-2-inside-centent h1 {
+        margin-top: 350px;
+    }
+    .section-2-inside-centent p {
+        padding-left: 115px;
+        text-align: left;
+        width: 425px;
+    }
+    .section-2-inside-img {
+        position: relative;
+        width: 340px;
+        height: 340px;
+    }
+    .section-2-inside-img img {
+        position: absolute;
+        top: -450px;
+        left: 0px;
+        width: 340px;
+        height: 340px;
+    }
+    /* Section responsive end */
+    /* Servises start */
+    .servises {
+        width: 425px;
+        height: 1300px;
+    }
+    .box-sevises {
+        width: 400px;
+        height: 700px;
+        flex-direction: column;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .box-sevises-content {
+        margin-top: -270px;
+        text-align: center;
+    }
+    .box-sevises-content h1 {
+        font-size: 40px;
+    }
+    .box-sevises-content b {
+        font-size: 30px;
+    }
+    .box-sevises-content p {
+        padding-left: 60px;
+        width: 400px;
+        text-align: left;
+    }
+    .box-sevises-content-2 {
+        position: relative;
+        align-items: center;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+    }
+    /* servises end  */
+    /* Portfolio start */
+    .box-portfoli-link {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .box-portfolio {
+        width: 100%;
+        height: auto;
+        margin-left: 27px;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        position: relative;
+        display: flex;
+    }
+    .portfoli-img {
+        gap: 10px;
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .portfoli-img-2 {
+        position: relative;
+        gap: 10px;
+    }
+    .portfoli-img-2:nth-child(2) {
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .ttiles {
+        top: 580px;
+        position: absolute;
+    }
+    .porfoliss {
+        margin-top: 700px;
+    }
+    /* Portfolip end */
+    /* Contacts start */
+    .contacts {
+        margin-top: 3000px;
+    }
+    /* Contacts end */
+    /* Blog start */
+    .blog {
+        /* margin-top: 1000px; */
+    }
+    /* Blog end */
 }
 
 

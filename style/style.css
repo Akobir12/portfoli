@@ -832,16 +832,14 @@ textarea {
 @media screen and (max-width: 425px) {
     /* navigation start */
     .nav-bars {
-        width: 424px;
+        width: 100%;
         position: fixed;
         height: 90px;
     }
     .box-nav {
-        gap: 10px;
-        /* position: fixed; */
         text-align: center;
         display: block;
-        width: 100%;
+        width: 90%;
     }
     /* Navigation end */
     .box-section {

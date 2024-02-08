@@ -8,31 +8,25 @@
                 font-family: Lexend Deca;
             }
             
-            .big-box {
-                width: 1440px;
-                height: 5550px;
-                margin-left: auto;
-                margin-right: auto;
-                background-color: #020617;
-            }
-            
             body {
-                background-color: #1F2937;
-                display: flex;
-                justify-content: center;
+                background-color: #fff;
             }
             /* Navbar start */
             
+            .header {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+            }
+            
             .nav-bars {
-                box-shadow: 0px -30px 100px 0px #fff;
+                box-shadow: 0px -45px 100px 0px #fff;
                 position: fixed;
-                /* margin-top: 12px; */
                 background-color: #020617;
-                margin-left: auto;
-                margin-right: auto;
-                width: 1440px;
+                width: 100%;
                 height: 60px;
                 display: flex;
+                margin: 0 auto;
                 align-items: center;
                 justify-content: space-between;
             }
@@ -76,13 +70,14 @@
                 align-items: center;
                 margin: 0 auto;
                 background-color: #111827;
-                width: 1440px;
+                width: 100%;
                 height: 619px;
             }
             
             .box-section-inside {
                 display: flex;
                 justify-content: space-between;
+                flex-wrap: wrap;
                 width: 1092px;
                 height: 427px;
             }
@@ -138,27 +133,30 @@
             }
             
             .box-section-inside-inside-2 img:hover {
-                box-shadow: 0px 0px 100px -12px #e5ad76;
+                box-shadow: 0px 0px 40px -12px #e5ad76;
             }
             /* Navber end */
             /* Section start */
             
             .section-2 {
+                background-color: #020617;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                max-width: 1440px;
+                max-width: 100%;
                 height: 740px;
                 margin: 0 auto;
                 /* background-color: blue; */
             }
             
             .section-2-inside {
+                background-color: transparent;
                 margin-top: 100px;
                 width: 1108px;
                 height: 620px;
                 display: flex;
                 justify-content: space-between;
+                flex-wrap: wrap;
                 align-items: center;
                 /* background-color: red; */
             }
@@ -173,7 +171,7 @@
             }
             
             .section-2-inside-img img:hover {
-                box-shadow: 0px 0px 100px -12px #e78626;
+                box-shadow: 0px 0px 40px -12px #e78626;
             }
             
             .section-2-inside-centent {
@@ -225,7 +223,7 @@
                 justify-content: center;
                 align-items: center;
                 margin: 0 auto;
-                width: 1440px;
+                width: 100%;
                 height: 760px;
             }
             
@@ -259,6 +257,7 @@
                 margin-top: 56px;
                 display: flex;
                 justify-content: space-between;
+                flex-wrap: wrap !important;
             }
             
             .box-sevises-content-2-inside {
@@ -306,15 +305,16 @@
             /* Portfolio start */
             
             .box-portfoli-link {
-                /* background-color: red; */
+                background-color: #020617;
                 margin: 0 auto;
-                width: 1440px;
-                height: 1010px;
+                width: 100%;
+                height: 2000px;
             }
             
             .box-portfolio {
+                background-color: transparent;
                 width: 1110px;
-                height: 1006px;
+                height: 2000px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -434,8 +434,16 @@
             /* Portfolio end */
             /* Contacts start */
             
+            .big-contacts {
+                margin: 0 auto;
+                background-color: #020617;
+                width: 100%;
+                height: auto;
+            }
+            
             .contacts {
-                margin-top: 1000px;
+                background-color: transparent;
+                margin-top: 100px;
                 width: 1110px;
                 height: 745px;
                 margin-left: auto;
@@ -542,13 +550,23 @@
             /* Contacts end */
             /* blog start */
             
+            .big-blog {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
+                height: 700px;
+                margin: 0 auto;
+                background-color: #020617;
+            }
+            
             .blog {
+                background-color: transparent;
                 text-align: center;
                 width: 685px;
                 height: 320px;
                 margin-left: auto;
                 margin-right: auto;
-                /* background-color: red; */
             }
             
             .blog h1 {
@@ -588,4 +606,4 @@
                 color: red;
             }
             
-            @media screen and (max-width: 425px) {}
+            @media screen and (max-width: 1167px) {}

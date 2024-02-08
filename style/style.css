@@ -870,6 +870,7 @@ textarea {
     /* Navigation start */
     /* Section start */
     .section-2 {
+        width: 100%;
         height: 1000px;
     }
     .section-2-inside {
@@ -897,6 +898,7 @@ textarea {
     /* Section end */
     /* Servises start */
     .servises {
+        width: 100%;
         height: 1400px;
     }
     .box-sevises {

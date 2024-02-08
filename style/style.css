@@ -26,7 +26,7 @@ body {
     box-shadow: 0px -45px 100px 0px #fff;
     position: fixed;
     background-color: #020617;
-    width: 425px;
+    width: 100%;
     height: 60px;
     /* display: flex; */
     margin: 0 auto;
@@ -43,7 +43,7 @@ body {
 
 .box-nav {
     position: relative;
-    width: 425px;
+    width: 1092px;
     height: 60px;
     margin: 0 auto;
     display: flex;
@@ -73,7 +73,7 @@ body {
     align-items: center;
     margin: 0 auto;
     background-color: #111827;
-    width: 425px;
+    width: 100%;
     height: 619px;
 }
 
@@ -149,7 +149,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 425px;
+    max-width: 100%;
     height: 740px;
     margin: 0 auto;
     /* background-color: blue; */
@@ -231,7 +231,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 425px;
+    max-width: 100%;
     height: 740px;
     margin: 0 auto;
     /* background-color: blue; */
@@ -315,7 +315,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 425px;
+    width: 100%;
     height: 760px;
 }
 
@@ -831,6 +831,10 @@ textarea {
 
 @media screen and (max-width: 425px) {
     /* navigation start */
+    .head {
+        width: 425px;
+        height: auto;
+    }
     .nav-bars {
         width: 425px;
         position: fixed;
@@ -839,11 +843,11 @@ textarea {
     .box-nav {
         text-align: center;
         display: block;
-        width: 90%;
+        width: 425px;
     }
     /* Navigation end */
     .box-section {
-        width: 100%;
+        width: 425px;
         height: 850px;
     }
     .box-section-inside {
@@ -871,7 +875,8 @@ textarea {
     /* Navigation start */
     /* Section start */
     .section-2 {
-        width: 100%;
+        width: 425px;
+        height: auto;
         height: 1000px;
     }
     .section-2-inside {
@@ -889,8 +894,8 @@ textarea {
     .section-2-inside-centent {
         margin-top: -120px;
         text-align: center;
-        margin-left: 27.5px;
-        width: 369px;
+        margin-left: 57.5px;
+        width: 310px;
         height: auto;
     }
     .section-2-inside-centent h1 {
@@ -899,10 +904,12 @@ textarea {
     /* Section end */
     /* Servises start */
     .servises {
-        width: 100%;
+        width: 425px;
         height: 1400px;
     }
     .box-sevises {
+        width: 425px;
+        height: auto;
         flex-direction: column;
     }
     .box-sevises-content {

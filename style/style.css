@@ -26,7 +26,7 @@ body {
     box-shadow: 0px -45px 100px 0px #fff;
     position: fixed;
     background-color: #020617;
-    width: 100%;
+    width: 425px;
     height: 60px;
     /* display: flex; */
     margin: 0 auto;
@@ -43,7 +43,7 @@ body {
 
 .box-nav {
     position: relative;
-    width: 1092px;
+    width: 425px;
     height: 60px;
     margin: 0 auto;
     display: flex;
@@ -73,7 +73,7 @@ body {
     align-items: center;
     margin: 0 auto;
     background-color: #111827;
-    width: 100%;
+    width: 425px;
     height: 619px;
 }
 
@@ -149,7 +149,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    max-width: 425px;
     height: 740px;
     margin: 0 auto;
     /* background-color: blue; */
@@ -231,7 +231,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    max-width: 425px;
     height: 740px;
     margin: 0 auto;
     /* background-color: blue; */
@@ -315,7 +315,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 100%;
+    width: 425px;
     height: 760px;
 }
 
@@ -843,6 +843,7 @@ textarea {
     }
     /* Navigation end */
     .box-section {
+        width: 100%;
         height: 850px;
     }
     .box-section-inside {

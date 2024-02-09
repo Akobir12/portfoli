@@ -9,7 +9,6 @@
 }
 
 body {
-    /* overflow: hidden; */
     background-color: #fff;
 }
 
@@ -832,10 +831,14 @@ textarea {
 @media screen and (max-width: 425px) {
     /* navigation start */
     .head {
-        width: 425px;
+        width: 500px;
         height: auto;
     }
     .nav-bars {
+        margin-right: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 425px;
         position: fixed;
         height: 90px;
@@ -843,10 +846,12 @@ textarea {
     .box-nav {
         text-align: center;
         display: block;
-        width: 425px;
+        width: 400px;
+        height: auto;
     }
     /* Navigation end */
     .box-section {
+        overflow: hidden;
         width: 425px;
         height: 850px;
     }
@@ -872,14 +877,20 @@ textarea {
     .span-nav-bar-2 a {
         gap: 10px;
     }
+    .box-sevises-content h1 {
+        margin-top: 250px;
+    }
     /* Navigation start */
     /* Section start */
     .section-2 {
+        position: relative;
+        /* margin-left: 30px; */
         width: 425px;
-        height: auto;
         height: 1000px;
     }
     .section-2-inside {
+        width: 425px;
+        height: auto;
         margin-top: -70px;
     }
     .section-2-inside-img {

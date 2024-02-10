@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #020617;
 }
 
 
@@ -883,10 +883,12 @@ textarea {
     /* Navigation start */
     /* Section start */
     .section-2 {
-        position: relative;
-        /* margin-left: 30px; */
-        width: 425px;
+        box-sizing: border-box;
+        padding: 0;
+        background-color: transparent;
+        width: 4100px;
         height: 1000px;
+        /* margin-left: 30px; */
     }
     .section-2-inside {
         width: 425px;
@@ -895,7 +897,7 @@ textarea {
     }
     .section-2-inside-img {
         padding-top: 50px;
-        margin: 0 auto;
+        margin-left: 55px;
     }
     .section-2-inside-img img {
         margin: 0 auto;
@@ -906,7 +908,7 @@ textarea {
         margin-top: -120px;
         text-align: center;
         margin-left: 57.5px;
-        width: 310px;
+        width: 350px;
         height: auto;
     }
     .section-2-inside-centent h1 {
@@ -1038,7 +1040,7 @@ textarea {
         height: 500px;
     }
     .blog {
-        width: 425px;
+        width: 400px;
         height: auto;
     }
     /* Blog end */

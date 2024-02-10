@@ -835,7 +835,6 @@ textarea {
         height: auto;
     }
     .nav-bars {
-        margin-right: -50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -893,7 +892,7 @@ textarea {
     .section-2-inside {
         width: 425px;
         height: auto;
-        margin-left: 50px;
+        /* margin-left: 50px; */
         margin-top: -70px;
         display: flex;
         justify-content: center;

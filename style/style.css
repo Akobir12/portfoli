@@ -846,7 +846,7 @@ textarea {
     .box-nav {
         text-align: center;
         display: block;
-        width: 400px;
+        width: 425px;
         height: auto;
     }
     /* Navigation end */
@@ -893,11 +893,14 @@ textarea {
     .section-2-inside {
         width: 425px;
         height: auto;
+        margin-left: 50px;
         margin-top: -70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .section-2-inside-img {
         padding-top: 50px;
-        margin-left: 55px;
     }
     .section-2-inside-img img {
         margin: 0 auto;
@@ -907,7 +910,6 @@ textarea {
     .section-2-inside-centent {
         margin-top: -120px;
         text-align: center;
-        margin-left: 57.5px;
         width: 350px;
         height: auto;
     }

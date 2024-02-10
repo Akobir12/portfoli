@@ -831,21 +831,22 @@ textarea {
 @media screen and (max-width: 425px) {
     /* navigation start */
     .head {
-        width: 500px;
+        width: 425px;
         height: auto;
     }
     .nav-bars {
+        margin-right: -50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 425px;
+        width: 100%;
         position: fixed;
         height: 90px;
     }
     .box-nav {
         text-align: center;
         display: block;
-        width: 425px;
+        width: 400px;
         height: auto;
     }
     /* Navigation end */
@@ -887,12 +888,10 @@ textarea {
         background-color: transparent;
         width: 4100px;
         height: 1000px;
-        /* margin-left: 30px; */
     }
     .section-2-inside {
         width: 425px;
         height: auto;
-        /* margin-left: 50px; */
         margin-top: -70px;
         display: flex;
         justify-content: center;

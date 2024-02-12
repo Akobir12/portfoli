@@ -828,14 +828,14 @@ textarea {
     color: red;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1127px) {
     /* navigation start */
     .head {
         width: 425px;
         height: auto;
     }
     .nav-bars {
-        margin-right: -50px;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;

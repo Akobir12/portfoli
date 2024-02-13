@@ -835,15 +835,16 @@ textarea {
         height: auto;
     }
     .nav-bars {
-        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        margin-right: -50px;
+        width: 475px;
         position: fixed;
         height: 90px;
     }
     .box-nav {
+        background-color: red;
         text-align: center;
         display: block;
         width: 400px;
